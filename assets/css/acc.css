@@ -1,0 +1,145 @@
+body{
+	height:100%;
+	width:100%;
+	}
+	
+	.right{
+	height:100%;
+	}
+	.sample-size{
+	margin:0 auto;
+	}
+	.subcontact{
+	background-color:#329ea8;
+	color:black;
+	display:block;
+	padding: 10px 15px;
+    border: 2px solid black;
+	}
+	.sign li a{
+	text-decoration:none;
+	color:black;
+	}
+	.sint a:hover{
+	color:black;
+	}
+	.outing{
+	border:1px solid #329ea8;
+	position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #acadac;
+    border: 1px solid black;
+	}
+	.btn-default {
+    color: #333;
+    background-color: #329ea8;
+    border-color: #ccc;
+}
+	
+	.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: line-through;
+  font-size: 18px;
+  
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+	.collapsible:after {
+ <!--  content: '\002B'; -->
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  <!-- content: "\2212"; -->
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  <!-- transition: max-height 0.2s ease-out; -->
+  background-color: #f1f1f1;
+}
+	
+	@media only screen and (min-width:778px) {
+        .single{
+		 display:block!important;
+		}
+     }
+	 .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.para{
+    color: black;
+    font-weight: 500;
+font-size: 18px
+
+ 
+
+}
+.thicker {
+  font-weight: 900;
+  }
+  
+  .btn1 {
+  background-color: #3a96f0; /* Blue background */
+  
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 17px; /* Set a font size */
+  
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn1:hover {
+  background-color: #777777;
+}
+ul.a {
+  list-style-position: outside;
+}

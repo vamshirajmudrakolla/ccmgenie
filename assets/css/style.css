@@ -1,0 +1,64 @@
+body{background:url(../assets/image/bg.jpg);}
+	.leftpanel{background:url(../assets/image/bg1.jpg);min-height:800px;padding:0;margin:0;border-radius:6px;}
+	.topbar{background:black;height:80px;}
+	.creation{margin:0;padding:0;}
+	.panel-primary{ background: linear-gradient(to left,#c8953f,#c8c290,#e5bb5e);}
+	.panel-heading{background:linear-gradient(to left,#272b2a,#7f7574,#272b2a);}
+	.list-group-item{background:transparent;color:;}
+	.list-group-item:hover{cursor:pointer;}
+	.list-group-item:hover{border-right:6px solid orange;}
+	.list-group-item.active{background:linear-gradient(to left,#272b2a,#7f7574,#272b2a);font-size:30px;border-color:#ffffff;}
+	.list-group-item.active:hover{border-color:#ffffff;}
+	.list{color:white;}
+	.list:hover{text-decoration:none;color:white;}
+	.bgh1{text-align:center;padding:50px;margin:0;color:black;}
+	.glyphicon{color: #3e453e;}
+	.active1{background:green;}
+	.picRight{float:right; margin:0 0 20px 20px;}
+	
+	
+	
+	* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: right;
+  width: 25%;
+  padding: 10 30px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 80px;
+  text-align: center;
+  background-color: white;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+  }
+  }
+  
+  
+  
