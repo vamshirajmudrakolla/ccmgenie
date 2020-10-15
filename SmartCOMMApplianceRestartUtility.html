@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>SmartCOMM Appliance Restart Utility​</title>
+    
+    <!-- Meta -->
+         <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/acc.css" rel="stylesheet">
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/acc.js"></script>
+   
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    
+    <!-- Plugin CSS -->
+    
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+    <script>
+	
+	</script>
+<style>
+	</style>
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0" ><a href="index.html">CCM GENIE</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/genie.png" alt="image" >			
+					
+					<div class="bio mb-3" style="font-size:17px">Hi, This is Genie. Where the overall Accelerartors details can be found here. Checkout on your right side.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					
+			        <hr> 
+				</div>
+			</div>
+		</nav>
+		<a href="index.html" class="btn1" style = "position:relative; bottom:10px;left:10px;"><i class="fa fa-home"></i> Home</a>
+    </header>
+    
+    <div class="main-wrapper">
+	<div class="d-flex bg-primary">
+						      
+							  
+						   </div>
+	<br>
+	<br>
+	<div class="main-wrapper">
+	
+<a href="" target="null" class="btn1" style = "position:relative; bottom:10px;left:-210px;"><i class="fa fa-play"></i> Launch</button></a>
+	<!-- <div class="col-sm-12"> -->
+						  <h1 class=" text-center bgh1" style = "position:relative; right:130px; width:%;">SmartCOMM Appliance Restart Utility​</h1>
+						  <!-- <div class="row"> -->
+	<div class="col-sm-13 sample-size text sign">
+  <div id="accordion">
+    <div class="card" style = "position:relative; right:220px; width:120%;">
+      <div class="card-header center-left">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+		
+		<button class="collapsible" class=" sample-size sint text-center">Purpose</button>
+          <div class="content">
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body" style="background-color:white;" style="font-size:160%;">
+        <p class="para">In a typical SmartCOMM development project, the lower environments are configured with Appliance which will manage to run our jobs frequently. If one job is in the state of  “In Progress” the remaining jobs which was submitted next to that job will go to “Waiting” state, until unless the “In Progress” job is completed or stopped. To do that manually we need to open the SmartCOMM Appliance, check the jobs and "Stop" that job which is "In Progress" for a longer time period than usual causing blocker for queued jobs to execute.​                                   ​ 
+
+<br>
+<br>
+Post this, we should Pause and Resume the Appliance so that next jobs will continue to execute.
+
+<br>
+<p class="para">In order to automate this process,  ValueMomentum has developed a utility using PHP. User can configure this utility for any SmartCOMM Appliance to stop the job if it did not respond for longer time and will resume the Appliance to process the waiting jobs. ​</p>
+  <p class="para">This utility UI is simple to configure tenancy details, Appliances, Job wait policy. This utility monitors the Appliance using the configuration details, we can start/stop this utility from the same UI. It also gives an option to view logs (list of stopped job details).​​</p>
+</p>
+        </div>
+      </div>
+    </div>
+    
+
+	  <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+		<button type="button" class="collapsible sample-size sint text-center">Workflow</button>
+        
+      </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body" style="background-color:white;" >
+		<br>
+		
+  <img src="assets/images/accimages/Appliancerestart1.png" alt="Reuse" style="width:849px;height:446px;">
+  
+  
+        </div>
+      </div>
+    
+        <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+		<button type="button" class="collapsible">Benefits</button>
+        
+      </a>
+      </div>
+      <div id="collapseSix" class="collapse" data-parent="#accordion">
+        <div class="card-body" style="background-color:white;">
+		
+<li class="para">Help addressing Dev and QA effort leakages because of the “wait” </li>
+<li class="para">Statistics from a Live project is shared below:</li>
+
+
+<img src="assets/images/accimages/Appliancerestart2.png" alt="Benifits" style="width:800px;height:180px;">   
+<br>
+
+
+   </div>
+      </div> 
+   
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+		<button type="button" class="collapsible">Prerequisites</button>
+        
+      </a>
+      </div>
+      <div id="collapseSeven" class="collapse" data-parent="#accordion">
+       <div class="card-body" style="background-color:white;">
+	   <p class="para thicker">
+          <u>Prerequires for the demo</u>: Before the demo we have at least one job In Progress (for more than 5 minutes) and few in waiting​
+   <li class="para">JDk need to installed</li>
+<li class="para">Windows Task sheduler need to set with highest privilages</li>
+<li class="para">Xammp Need to be installed.</li>
+<li class="para">Oauth.dll need to be dropped in "C:\xampp\php\ext" with same version of xammp.</li>
+  </p>
+        </div>
+		</div>   
+	 
+    
+	
+	    
+ 
+    
+	    
+
+		      
+	        <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseNine">
+		<button type="button" class="collapsible">Limitations</button>
+        
+      </a>
+      </div>
+      <div id="collapseNine" class="collapse" data-parent="#accordion">
+        <div class="card-body" style="background-color:white;">
+	<li class="para">If the task scheduler is stopped you need to restart the whole utility.</li>
+<li class="para">Smartcomm Appliance need to be in running state and connected to our tenancy.</li>
+<li class="para">Task scheduler time should not be set in seconds.</li>
+   </div>
+      </div>
+	  
+	   <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+		<button type="button" class="collapsible sample-size sint text-center">How to Demo</button>
+        
+      </a>
+      </div>
+      <div id="collapseFive" class="collapse" data-parent="#accordion">
+        <div class="card-body" style="background-color:white;" >
+		
+		  <ul class="a">
+		  <br>
+  <li class="para">We take the audience through the front-end screen to explain how to configure the utility​</li>
+  <li class="para">For the demo purpose, we will configure our na4 tenancy (can be accessed from any network) set with 3 minutes wait policy​</li>
+  <li class="para">Once we configure and run the job, the utility will stop the “In Progress” job and resume the Appliance which will run the jobs in waiting​</li>
+  <li class="para">The details of the job, which was stopped, can be viewed in the log​</li>
+  <li class="para">We will walk them through the main code for a high-level understanding (only if there are technical staff)​​</li>
+  <li class="para">The Demo time is approximately 30 min​</li>
+  </ul>
+  
+ 
+        </div>
+      </div>
+	  
+      </div>
+    </div>
+  </div>
+
+   </div> 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </p>
+</div>
+</div>
+<script>
+
+</script>
+							  
+						   
+	    
+	    
+</body>
+</html> 
+

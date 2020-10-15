@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>CCM Genie Dashboard</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+	 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/materialdesignicons.min.css" rel="stylesheet" media="all" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap1.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/autostyle.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	 <link href="assets/css/stylesheet.css" rel="stylesheet">
+	 <script src="assets/js/jquery.min1.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	 <script src="assets/js/popper.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+<!--
+
+.btn-group button {
+  background-color: #e03e36; /* red background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #ffaa64;
+}
+
+ -->
+
+ </style>
+</head> 
+
+<body onload= "Default()">
+    
+    <header class="header text-center">	 
+
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html"></a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/genie.png" alt="image" >	
+<div class="bio mb-3">Hi, This is Genie. Where the overall Accelerators details can be found here. Checkout on your right side.<br></div><!--//bio-->
+					
+			        <hr> 
+				</div>
+				
+				
+				
+				<div class="my-2 my-md-3">
+				    
+				</div>
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    <section class="cta-section theme-bg-light">
+		    <div class="container text-center">
+			    <h2 class="heading" style = "position:relative; right:-5px;bottom:10px; width:%;">CCM GENIE</h2>
+			    
+		    </div>
+	    </section>
+	  
+	<div class="container text-center"> 
+	
+					   <!--//media-body-->
+				    </div><!--//media-->
+			    <div class="btn-group" style="margin-left: 290px;">
+				<script>
+				var x = 1;
+				var y=1;
+				var z=1;
+				
+				var b=1;</script>
+				
+	
+
+
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active btn-lg">
+    <input type="radio" name="options" id="Buttontrigger1" onclick="Dev()"  > Development
+  </label>
+  <label class="btn btn-secondary btn-lg">
+    <input type="radio" name="options" id="Buttontrigger2" onclick="Test()"> Testing
+  </label>
+  <label class="btn btn-secondary btn-lg">
+    <input type="radio" name="options" id="Buttontrigger3" onclick="Deploy()"> Deployment
+  </label>
+   <label class="btn btn-secondary btn-lg">
+    <input type="radio" name="options" id="Buttontrigger4" onclick="Monitor()"> Monitoring
+  </label>
+</div>
+
+
+</div>
+
+
+				
+				<script>
+function Dev(){
+	x++;
+	if (x%2 == 0){
+		Development()
+	}
+	else{
+		Default()
+	
+		}
+}
+function Test(){
+	y++;
+	if (y%2 == 0){
+		Testing()
+	}
+	else{
+		Default()
+		}
+}
+function Deploy(){
+	z++;
+	if (z%2 == 0){
+		Deployment()
+	}
+	else{
+		Default()
+		}
+}
+
+function Monitor(){
+	b++;
+	if (b%2 == 0){
+		Monitoring()
+	}
+	else{
+		Default()
+		}
+}
+function Default(){
+
+document.getElementById("Buttontrigger1").style.background = "#e03e36";
+	
+	
+	document.getElementById("Buttontrigger2").style.background = "#e03e36";
+	document.getElementById("Buttontrigger3").style.background = "#e03e36";
+	document.getElementById("Buttontrigger4").style.background = "#e03e36";
+	
+    document.getElementById("pdf").style.display = "block";
+    document.getElementById("exstream").style.display = "block";
+    document.getElementById("custom").style.display = "block";
+    document.getElementById("smartcomm").style.display = "block";  
+	
+    document.getElementById("xml").style.display = "block";
+	document.getElementById("comparison").style.display = "block";
+    
+	
+	 document.getElementById("restart").style.display = "block";
+    document.getElementById("clean").style.display = "block";
+	document.getElementById("static").style.marginTop =  "900px";
+	document.getElementById("static").style.marginRight = "120px"; 
+}
+
+
+
+function Development(){
+document.getElementById("Buttontrigger1").style.background = "#ff7c38";
+	
+	
+	document.getElementById("Buttontrigger2").style.background = "#e03e36";
+	document.getElementById("Buttontrigger3").style.background = "#e03e36";
+	document.getElementById("Buttontrigger4").style.background = "#e03e36";
+	
+
+    document.getElementById("pdf").style.display = "block";
+    document.getElementById("exstream").style.display = "block";
+    document.getElementById("custom").style.display = "block";
+    document.getElementById("smartcomm").style.display = "block";																																	
+     
+    
+    document.getElementById("xml").style.display = "none";
+	
+    document.getElementById("comparison").style.display = "none";
+   
+	
+	
+    
+    document.getElementById("clean").style.display = "none";
+    document.getElementById("restart").style.display = "none";
+ 
+}
+
+function Testing(){
+
+	
+	document.getElementById("Buttontrigger2").style.background = "#ff7c38";
+	document.getElementById("Buttontrigger1").style.background = "#e03e36";
+	document.getElementById("Buttontrigger3").style.background = "#e03e36";
+	document.getElementById("Buttontrigger4").style.background = "#e03e36";
+	
+	
+	
+	
+   	
+    document.getElementById("xml").style.display = "block";	
+    
+	
+    document.getElementById("pdf").style.display = "none";
+	
+    document.getElementById("exstream").style.display = "none";
+    document.getElementById("custom").style.display = "none";
+    document.getElementById("smartcomm").style.display = "none";
+    document.getElementById("comparison").style.display = "none";
+   
+    document.getElementById("exstream").style.display = "none";
+    document.getElementById("clean").style.display = "none";
+    document.getElementById("restart").style.display = "none";
+    
+	}
+	
+function Deployment(){
+
+
+	document.getElementById("Buttontrigger3").style.background = "#ff7c38";
+	
+	
+	document.getElementById("Buttontrigger2").style.background = "#e03e36";
+	document.getElementById("Buttontrigger1").style.background = "#e03e36";
+	document.getElementById("Buttontrigger4").style.background = "#e03e36";
+	
+	
+    document.getElementById("comparison").style.display = "block";
+	
+    
+	
+    
+    document.getElementById("pdf").style.display = "none";
+    document.getElementById("exstream").style.display = "none";
+    document.getElementById("custom").style.display = "none";
+    document.getElementById("smartcomm").style.display = "none";
+    
+    document.getElementById("xml").style.display = "none";
+    document.getElementById("exstream").style.display = "none";
+    document.getElementById("clean").style.display = "none";
+    document.getElementById("restart").style.display = "none";
+	
+    
+	}
+	
+
+
+function Monitoring(){
+
+	document.getElementById("Buttontrigger4").style.background = "#ff7c38";
+	
+	document.getElementById("Buttontrigger2").style.background = "#e03e36";
+	document.getElementById("Buttontrigger3").style.background = "#e03e36";
+	
+	document.getElementById("Buttontrigger1").style.background = "#e03e36";
+	
+    
+    document.getElementById("clean").style.display = "block";
+	document.getElementById("restart").style.display = "block";
+	
+	
+    document.getElementById("pdf").style.display = "none";
+    document.getElementById("exstream").style.display = "none";
+    document.getElementById("custom").style.display = "none";
+    document.getElementById("smartcomm").style.display = "none";   
+    document.getElementById("comparison").style.display = "none";
+    
+  
+    document.getElementById("xml").style.display = "none";   
+   
+
+    
+}
+
+</script>
+
+				
+				
+				
+				
+				
+                
+				<br>
+				<br>
+				
+				<div class="">
+				 <div class="container-fluid" style="background-image: linear-gradient(to right bottom, #f4afe2, #e9b9ee, #dfc3f7, #d5ccfc, #cfd4fe, #c5d0fd, #bbccfc, #b0c8fb, #9db8f9, #8ba7f6, #7a97f2, #6b86ee);">
+				<div class="row" style="padding: 1px 110px 3px 110px">   
+				
+     <div class="col-sm-3" style="padding: 1px 20px 1px 2px; display:none;" id="pdf">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <br>
+      <img src="assets/images/blog/dfx.png" style="width:60px;height:60px;">
+      <br><br>
+	  <h3 class="title mb-1">PDF/DOCX to DXF Converter</a></h3>
+    </div>
+    <div class="flip-card-back">
+    <br>
+       <p style="align:centre; padding-left:10px; padding-right:10px;">Converts Microsoft Word Format or PDF to Dialogue Exchange Format</p> 
+    <div class="red-button"><a href="DOCX_to_DXF.html" target="null">READ MORE</a></div>
+	</div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+ <div class="col-sm-3" style="padding: 1px 20px 1px 2px; display:none;" id="custom">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <br>
+      <img src="assets/images/blog/custom.svg"  style="width:60px;height:60px;">
+      <br>
+       <h3 class="title mb-1">Custom Java Connector – Communication Builder</a></h3>
+    </div>
+    <div class="flip-card-back">
+    <br>
+       <p style="align:centre;padding-left:10px; padding-right:10px;">Allow users to write their own routines like moving the files between processes </p> 
+   <div class="red-button"><a href="Customjava.html" target="null">READ MORE</a></div>
+   </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="col-sm-3" style="padding: 1px 20px 1px 2px; display:none;" id="exstream">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <br>
+      <img src="assets/images/blog/portal.jpg"  style="width:60px;height:60px;">
+      <br><br>
+       <h3 class="title mb-1">Exstream Demo Portal</a></h3>
+    </div>
+    <div class="flip-card-back">
+    <br>
+       <p style="align:centre;padding-left:10px; padding-right:10px;"> A Java program that helps Integration and Orchestration of multiple component</p> 
+    <div class="red-button"><a href="ExstreamDemoPortal.html" target="null">READ MORE</a></div>
+	</div>
+  </div>
+</div>
+</div>
+
+
+<div class="col-sm-3" style="padding: 1px 20px 1px 2px; display:none;" id="smartcomm">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <br>
+      <img src="assets/images/blog/smartcomm.png"  style="width:80px;height:80px;">
+      <br><br>
+      <h3 class="title mb-1">SmartCOMM Demo Portal</a></h3>
+    </div>
+    <div class="flip-card-back">
+    <br>
+       <p style="align:centre;padding-left:10px; padding-right:10px;">Integration of multiple components AWS Email client and Digital signature </p> 
+<div class="red-button"><a href="SmartCOMMDemoPortal.html" target="null">READ MORE</a></div>   
+   </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+ <div class="row" style="padding: 1px 110px 3px 110px">
+    
+
+<div class="col-sm-3" style="padding: 1px 20px 1px 2px; display:none;" id="xml">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <br>
+      <img src="assets/images/blog/dataxml.png"  style="width:150px;height:80px;">
+      <br><br>
+      <h3 class="title mb-1">Mock XML ​Generator & <br> Test Data Extraction Utility</a></h3>
+    </div>
+    <div class="flip-card-back">
+    <br>
+       <p style="align:centre;padding-left:10px; padding-right:10px;">Reads any XML structure and display the elements in the front end dynamically</p> 
+    <div class="red-button"><a href="MockXML.html" target="null">READ MORE</a></div>
+	</div>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-3" style="padding: 1px 20px 1px 2px; display:none;" id="restart">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <br>
+      <img src="assets/images/blog/restart1.png"  style="width:90px;height:90px;">
+      <br>
+      <h3 class="title mb-1">SmartCOMM Appliance Restart Utility</a></h3>
+    </div>
+    <div class="flip-card-back">
+    <br>
+       <p style="align:centre;padding-left:10px; padding-right:10px;"> User can configure it to stop any SmartCOMM Appliance job after </p> 
+    <div class="red-button"><a href="SmartCOMMApplianceRestartUtility.html" target="null">READ MORE</a></div>
+	</div>
+  </div>
+</div>
+
+</div>
+
+<div class="col-sm-3" style="padding: 1px 20px 1px 2px; display:none;" id="clean">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <br>
+      <img src="assets/images/blog/clean.png"  style="width:80px;height:60px;">
+      <br><br><h3 class="title mb-1">SmartCOMM - Appliance Disk Clean-up Utility</a></h3>
+    </div>
+    <div class="flip-card-back">
+    <br>
+       <p style="align:centre;padding-left:10px; padding-right:10px;">  Connects to an Appliance and deletes job files in a server by directory</p> 
+    <div class="red-button"><a href="Diskclean.html" target="null">READ MORE</a></div>
+	</div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+<div class="col-sm-3" style="padding: 1px 20px 1px 2px; display:none;" id="comparison">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <br>
+      <img src="assets/images/blog/exstream.png"  style="width:80px;height:60px;">
+      <br><br>
+      <h3 class="title mb-1">Exstream Pub Comparison Utility</a></h3>
+    </div>
+    <div class="flip-card-back">
+    <br>
+       <p style="align:centre;padding-left:10px; padding-right:10px;"> To achieve faster and quality code comparison through it.</p> 
+    <div class="red-button"><a href="Exstreampackage.html" target="null">READ MORE</a></div>
+	</div>
+  </div>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+ 
+ </div>
+ </div>
+		
+<script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+     $('.buy-carousel').owlCarousel({
+		loop:true,
+		margin:0,
+		nav:true,
+		autoplay:false,
+	 	center:false,
+		dots:false,
+		responsive:{
+			0:{
+				items:1,
+			},
+			567:{
+				items:2,
+			},			
+			768:{
+				items:3,
+			},
+			992:{
+				items:4,
+			},
+			1200:{
+				items:5
+			}
+		}
+	});
+	
+	
+	$('.banner-carousel').owlCarousel({
+		loop:false,
+		margin:0,
+		nav:false,
+		autoplay:true,
+	 	center:false,
+		dots:true,
+		responsive:{
+			0:{
+				items:1,
+			},
+			567:{
+				items:1,
+			},			
+			768:{
+				items:1,
+			},
+			992:{
+				items:1,
+			},
+			1200:{
+				items:1
+			}
+		}
+	});
+	
+	function Development(){
+
+	document.getElementById("Buttontrigger1").style.background = "#008000";
+	document.getElementById("Buttontrigger2").style.background = "#4CAF50";
+	document.getElementById("Buttontrigger3").style.background = "#4CAF50";
+	document.getElementById("Buttontrigger4").style.background = "#4CAF50";
+	document.getElementById("Buttontrigger5").style.background = "#4CAF50";
+
+    document.getElementById("pdf").style.display = "block";
+    document.getElementById("exstream").style.display = "block";
+    document.getElementById("custom").style.display = "block";
+    document.getElementById("smartcomm").style.display = "block";																																	
+     
+    document.getElementById("test").style.display = "none";
+    document.getElementById("xml").style.display = "none";
+	
+    document.getElementById("comparison").style.display = "none";
+    document.getElementById("deployment").style.display = "none";
+	
+	document.getElementById("migration").style.display = "none";
+    
+    document.getElementById("clean").style.display = "none";
+    document.getElementById("restart").style.display = "none";
+ 
+	
+	
+	</script>
+			     <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 235px;
+  padding: 2px 20px 1px 5px;
+  height: 235px;
+  perspective: 1000px;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); 
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #f0f0f0;
+  color: black;
+  transform: rotateY(180deg);
+}
+</style>
+				
+				
+				
+				
+            
+        
+				
+				
+				
+				
+			
+
+</body>
+</html> 
+
+
+
+
+
+
+
+

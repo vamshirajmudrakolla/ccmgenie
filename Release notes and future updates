@@ -1,0 +1,106 @@
+Future update:1)CC-CS migration:
+
+Release notes
+v1.0
+1. Added migration functionality for simple CC-CS jobs.
+v2.0
+1. UIPath bot can now implement two pass implementation of a Command Center job.
+2. Bot can now handle batchscripts functionality from CC job and implement it in CS. 
+
+Future updates
+1. Support and enhancement of UIPath jobs to facilitate migration of more complex jobs.
+2. Adding facility to test the process automatically.
+
+2)Mock XMl Generator:
+
+Release notes :
+
+1. Dynamically reading the XMl structure used in the project and mocking the XMLs by entering the values corresponding to the tag names present in the UI.
+2. Saving the criteria and using the same for future to generate any number of XMls using the same criteria.
+3. Creating Mock XMLs for simple XMl structures & Complex Nested XML Structures.
+
+Future Updates :
+
+1. Creating Mock XMLs for the XMl structure having Multiple repitition of Parent tags.
+2. Creation of XMl tree structure for better readability.
+
+
+
+3)Test Data Extraction :
+
+Release notes:
+
+1. Dynamically searching the test bed and extracting the required XML based on the criteria created by the user.
+2. Saving the criteria and using the same for future for searching test bed instead creating a new criteria everytime.
+
+Future Updates :
+
+1. Creation of XMl tree structure for better readability.
+
+4)DocxToDXF:
+
+
+Release Notes: This utility reduces the migration load in designing the forms from the mockups manually copying the verbiage/content one by one. This reduces the designing effort by nearly 50% and helps in increase speed of execution.
+
+Future Updates : None
+
+
+
+5)SmartCOMM - Appliance Disk Clean-up Utility
+    
+Release notes
+
+
+    1. Connecting to mutiple appliances cleaning up the disk automatically based on user requirement.
+    2. For user understading log file is created with information regarding the files which has been deleted for selected appliance and after successfull completion of disk clean up status mail is sent to user.
+    3. Auto log file cleanup is also available based on size as per requirement.
+    
+Future Updates :
+    
+    1. Before Auto log file clean up drop an email with details or save it in some archival location.
+	
+	
+6)SmartCOMM Appliance Restart Utility:
+
+Release notes:
+
+1. Connecting to single appliance in one instance, stopping the jobs automatically based on user requirement(time interval).
+    
+2. For user understanding, log file is created with information regarding the jobs which were stopped for selected appliance
+3. After stopping the job, status mail is sent to EmailId which was provided by the user.
+    
+4. Auto log file cleanup(Refresh) is also available based on line count to optimize the amount of data.
+    
+
+ 
+
+
+Future Updates :
+    
+    
+1. To connect with the multiple Appliance at a time.
+2. Before Auto log file clean up drop an email with details or save it in some archival location.	
+
+7)Deployment ​Automation ​Utility:
+
+Release notes:
+
+1.EXPORT AND IMPORT A PROJECT
+2.Export and import a resource
+3.Export and import a folder
+
+Future updates: None
+
+
+
+Exstream Demo Portal-Pending
+Custom Java Connector – Communication Builder-Pending
+Exstream Pub Comparison Utility-Pending
+SmartCOMM Demo Portal-Pending
+
+ 
+
+
+
+
+
